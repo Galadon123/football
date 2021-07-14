@@ -310,7 +310,8 @@ footer
     {
         width: 330px;
         height: 260px;
-        margin-left: 0px;
+        margin-left: 25px;
+        margin-top:20px;
     }
     .header-box
 {
@@ -347,6 +348,7 @@ main
     display: grid;
     grid-template-columns: repeat(2,1fr);
     column-gap: 0px;
+    margin-left:90px;
 }
 .video
 {
