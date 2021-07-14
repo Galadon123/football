@@ -1,0 +1,361 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*------------------------------------------------------------------ 
+----------------------------common utilities------------------- */
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(236, 230, 230, 0.904);
+}
+/* footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+main
+{
+    margin-top: -100px;
+}
+a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    margin-right: 25px;
+}
+nav
+{
+    width:100%;
+}
+a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5em;
+    margin-right: 30px;
+}
+footer
+{
+    margin-top:100px;
+}
+/* ---------------------------------------------------------
+----------------------------------------------------------- */
+.fifa
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a2434;
+}
+.login img
+{
+    width: 24px;
+    height: 24px;
+}
+.login a
+{
+    color:white;
+}
+.login
+{
+    width:123px;
+    height: 44px;
+    background-color: #3e41f0;
+    display: flex;
+    align-items: center;
+    border-radius: 05px;
+    padding-left: 25px;
+    position: relative;
+    right: 100px;
+}
+.login a
+{
+    margin-left:10px;
+}
+.login:hover
+{
+    background-color: gray;
+}
+.img img
+{
+    width:80px;
+    height: 100px;
+}
+.img{
+    position: relative;
+    left:100px;
+}
+/* ----------------------
+-------------hover */
+ .right-nav a:hover 
+ {
+     background-color: rgb(65, 63, 63);
+     color:white;
+     padding:8px;
+     border-radius: 10px;
+ }
+
+
+/*-------------------------------------------------------------------
+------------------ background image-------------------------------- */
+.watchlive a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+}
+.title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title h1
+{
+    width:485px;
+    height: 230px;
+    font-size: 64px;
+    margin-left:150px;
+    color:white;
+}
+.header-box
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.watchlive button
+{
+   background-color: rgba(22, 10, 196, 0.856);
+   border:0px solid;
+   width:168px;
+   height: 44px;
+   font-size: 16px;
+   border-radius: 10px;
+   margin-left: -100px;
+   padding-left:20px;
+}
+.title-img img
+{  
+  width:557px;
+  height: 438px;
+}
+.copa-america
+{
+    margin-top: 15px;
+    overflow: hidden;
+    background-image: url(images/bg.jpg);
+}
+.header-box:hover 
+{
+    transform: scale(1.1);
+    transition: transform 2s;
+}
+
+
+   /* -------------------------------------------------------
+   ---------------------plyaer detail information--------------- */
+.players
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 27px;
+    column-gap: 15px;
+    margin:170px 210px 165px 180px;
+}
+.footballerbio
+{
+    width:330px;
+    height: 474px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px rgba(199, 196, 196, 0.746);
+}
+.footballer
+{
+    padding:15px 15px 33px 15px; 
+}
+.footballerimg img
+{
+    width: 300px;
+    height: 256px;
+}
+.footballerdetail p
+{
+    font-size: 16px;
+}
+.footballerdetail h1
+{
+    margin-top: 5px;
+    font-size: 28px;
+}
+ /* latest match video style sheet */
+ .latest-video
+ {
+     margin-right: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding:10px;
+     border-radius: 10px;
+     /* box-shadow: 5px 5px 20px rgb(255, 254, 254); */
+ }
+ .tv 
+ {
+     background-color:#1a2434;
+     padding:40px 50px 30px 50px;
+ }
+ #special
+ {
+     color:white;
+     font-size: 1.4em;
+ }
+ .video
+ {
+     display: flex;
+ }
+ .video-title h2
+ {
+     color:white;
+ }
+
+
+/*-------------------------------------------------
+ --------------------------- partner or sponser section------------- */
+.partner
+{
+    width:800px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 60px;
+}
+.sponser
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:40px 40px 0px 40px;
+    margin-top:60px;
+}
+/* .partner-logo1
+{
+    grid-column: 1/3;
+}
+.partner-logo2
+{
+    grid-column: 1/3;
+}
+.partner-logo3
+{
+    grid-column:1/3 ;
+} */
+ /*---------------------------------------------------------------
+ ------------------- footer section code -------------------------*/
+ .football-logo img
+ {
+     width:484px;
+     height: 110px;
+ }
+ .social-media img
+ {
+     width: 32px;
+     height: 32px;
+     margin-left:15px;
+ }
+ .footer-div
+ {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+@media only screen and (max-width:688px)
+{
+    .players
+    {
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         justify-content: center;
+    }
+    .football-logo img
+ {
+     width:284px;
+     height: 70px;
+ }
+ .fifa
+ {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: #1a2434;
+ }
+
+ .img{
+    margin-left: -450px;
+}
+    .navbar
+    {
+        display: none;
+    }
+    .login
+    {
+        margin-left: 400px;
+    }
+    .title-img img
+    {
+        width: 330px;
+        height: 260px;
+        margin-left: 0px;
+    }
+    .header-box
+{
+   width:36px;
+   height: 695px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.title h1
+{
+    width:278px;
+    height: 138px;
+    font-size: 36px;
+    margin-left:0px;
+}
+.watchlive button
+{
+   background-color: rgba(22, 10, 196, 0.856);
+   border:0px solid;
+   width:168px;
+   height: 44px;
+   font-size: 16px;
+   border-radius: 5px;
+   margin-left: -100px;
+}
+main 
+{
+    margin-top:-100px;
+}
+
+.partner
+{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 0px;
+}
+.video
+{
+    display:block;
+}
+ .videos iframe
+ {
+     width:200px;
+     height: 150px;
+ }
+
+}
