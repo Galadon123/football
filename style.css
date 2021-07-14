@@ -253,6 +253,7 @@ footer
      flex-direction: column;
      align-items: center;
  }
+ /* media quaries for mobile devices */
 @media only screen and (max-width:688px)
 {
     .players
